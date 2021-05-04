@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/image"
+
+        android:layout_height="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Đăng Ký"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:paddingLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Mã sinh viên"
+        android:background="@drawable/forget"
+        android:layout_width="350dp"
+        android:layout_height="45dp"/>
+    <EditText
+        android:paddingLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Tài khoản"
+        android:background="@drawable/forget"
+        android:layout_width="350dp"
+        android:layout_height="45dp"/>
+    <EditText
+        android:paddingLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Mật khẩu"
+        android:background="@drawable/forget"
+        android:layout_width="350dp"
+        android:layout_height="45dp"/>
+    <EditText
+        android:paddingLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Xác nhận mật khẩu"
+        android:background="@drawable/forget"
+        android:layout_width="350dp"
+        android:layout_height="45dp"/>
+    <Button
+        android:hint="Đăng ký"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:background="@drawable/bg_btn"
+        android:layout_width="350dp"
+        android:layout_height="55dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Đăng nhập nếu nếu bạn đã đăng ký"
+        android:layout_width="wrap_content"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
